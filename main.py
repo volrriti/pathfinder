@@ -60,7 +60,6 @@ while found == False:
         if 0 <= x < size_x and 0 <= y < size_y:
             if map_grid[x][y] == 'G':
                 found = True
-                break
             if map_grid[x][y] == 'o':
                 current_distance = math.sqrt((x - current[0]) ** 2 + (y - current[1]) ** 2)
                 goal_distance = math.sqrt((x - goal[0]) ** 2 + (y - goal[1]) ** 2)
